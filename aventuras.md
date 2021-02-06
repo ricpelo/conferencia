@@ -1,5 +1,5 @@
 ---
-title: Conferencia Aventuras
+title: Aventuras conversacionales
 author: Ricardo Pérez López
 date: Universidad de Cádiz, 9 de febrero de 2021
 ---
@@ -207,8 +207,6 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
 !IMGP(Infocom_Classic_Text_Adventure_Masterpieces_1996_Box_Art-front-opened.jpg)(Classic Text Adventure Masterpieces (1996)<br>(_Fuente_: `archive.org`))(width=85%)
 
-#### Zork
-
 ---
 
 !IMGP(Zork_Box.jpg)(_Zork_)
@@ -253,8 +251,6 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 - El _Z-code_ se guarda en _story files_, que son archivos con extensión `.z1`,
   `.z2`, `.z3`, `.z4`, `.z5`, `.z6`, `.z7` o `.z8`, dependiendo de la versión
   de la _Z-machine_ en la que se deben ejecutar.
-
-### On Line Systems, Sierra Online
 
 ### Adventure International
 
@@ -310,7 +306,7 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
 !IMGP(TheHobbit.jpg)(The Hobbit (1982)<br>(_Fuente_: `worldofspectrum.org`))(width=70%)
 
-### Melbourne House
+---
 
 - Desarrolló _The Hobbit_ (1982) para microordenadores.
 
@@ -676,10 +672,48 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
 ### Inform 6
 
+- Lenguaje de programación creado por Graham Nelson en 1993 y orientado al
+  desarrollo de aventuras conversacionales.
+
+- Compilado, de tipado dinámico, orientado a objetos con características
+  basadas en Smalltalk, herencia múltiple y sintaxis tipo C.
+
+- El sistema lo completa una librería (la _Inform Library_) que contiene las
+  reglas básicas de una aventura conversacional típica.
+
+- Pensado para el idioma inglés, pero la extensión INFSP6 permite desarrollar
+  aventuras en castellano con este sistema.
+
+- El compilador de Inform 6 genera código para la _Z-machine_ y también para
+  una máquina virtual más moderna llamada _Glulx_ (Andrew Plotkin).
+
 ### Inform 7
+
+- Lenguaje de programación creado por Graham Nelson desde mediados de la década
+  de los 2000.
+
+- Basado en el lenguaje natural, el código fuente de una aventura escrita en
+  Inform 7 parece texto escrito en inglés.
+
+- No es orientado a objetos, sino que está basado en reglas.
+
+- Tiene versiones para Windows, Mac y Linux.
+
+- Su compilador genera código para la _Z-machine_ y para _Glulx_.
 
 ### TADS
 
-## Motores de aventuras
+- Lenguaje de programación creado por Michael J. Roberts.
 
-### Adventuron
+- La versión 1 se publicó en 1988.
+
+- La última versión (la 3.1.3) se publicó en 2013.
+
+- Es un lenguaje de tipado fuerte, estático, con inferencia de tipos, orientado
+  a objetos y de prototipos con una sintaxis tipo C.
+
+- Al igual que Inform 6, incluye un una librería que contiene las reglas
+  básicas de una aventura típica.
+
+- Genera código para una máquina virtual propia para la que se requiere un
+  intérprete propio.
