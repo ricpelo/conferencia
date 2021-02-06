@@ -353,21 +353,324 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
 ## Europa
 
+- Principales plataformas de la época:
+
+  - Sinclair ZX Spectrum (48 KiB, cinta).
+
+  - Sinclair ZX Spectrum +2 (128 KiB, cinta).
+
+  - Sinclair ZX Spectrum +3 (128 KiB, disco).
+
+  - Amstrad CPC 464 (64 KiB, cinta).
+
+  - Amstrad CPC 6128 (128 KiB, disco).
+
+  - Commodore 64 (64 KiB, cinta y disco).
+
+  - MSX (32-64 KiB, cinta y cartucho).
+
 ### Level 9
+
+- Compañía británica fundada por los hermanos Austin en 1981.
+
+- Publicaron títulos para las plataformas BBC Micro, Nascom, ZX Spectrum,
+  Commodore 64, Oric, Atari, Lynx 48k, RML 380Z, Amstrad CPC, MSX, Amiga, Apple
+  II, Memotech MTX y Enterprise.
+
+- Algunos de ellos se editaron en forma de trilogías:
+
+  - _Jewel of Darkness_ (o _Middle-Earth Trilogy_) (Rainbird, 1986).
+
+  - _Sillicon Dreams_ (Rainbird, 1986).
+
+  - _Time and Magik_ (Mandarin Software, 1988).
+
+- Cesaron su actividad en 1991.
+
+---
+
+:::: columns
+
+::: column
+
+!IMGP(Return_to_Eden.jpg)(Return to Eden (1984)<br>(_Fuente_: Wikipedia))(width=65%)
+
+:::
+
+::: column
+
+!IMGP(Emerald_Isle.png)(Emerald Isle (1985)<br>(_Fuente_: Wikipedia))(width=65%)
+
+:::
+
+::::
+
+#### Tecnología
+
+- Aventuras de muchísima calidad técnica.
+
+- Diseñaron su propio lenguaje llamado _A-code_.
+
+- Ese código se ejecutaba en un intérprete para una máquina virtual llamada
+  _A-machine_.
+
+- Desarrollaron un sistema de compresión de texto muy avanzado con el que se
+  podía comprimir los textos de las aventuras hasta un 50 %.
+
+- El _A-code_ y la _A-machine_ rivalizaban con el _ZIL_ y la _Z-machine_ de
+  Infocom, pero estaban más optimizados:
+
+  - Podían distribuirse en _cintas_.
+
+  - Cargaban totalmente en memoria.
 
 ### Magnetic Scrolls
 
-### Adventure International UK
+- Compañía británica fundada por Anita Sinclair en 1984.
+
+- Mundialmente conocidos por la excelente calidad audiovisual de sus productos.
+
+- Se centraron principalmente en las plataformas de 16 bits
+
+- Cesaron su actividad en 1992, siendo adquirida por MicroProse.
+
+- Sólo publicaron siete productos propios, seis con Rainbird y uno con Virgin
+  Interactive.
+
+---
+
+:::: columns
+
+::: column
+
+!IMGP(The_Pawn.jpg)(The Pawn (1985-87)<br>(_Fuente_: Wikipedia))(width=65%)
+
+:::
+
+::: column
+
+!IMGP(The_Guild_of_Thieves.jpg)(The Guild of Thieves (1987)<br>(_Fuente_: Wikipedia))(width=65%)
+
+:::
+
+::::
+
+### Adventure Soft UK
+
+- Subsidiaria de Adventure International, editora y distribuidora de sus
+  productos en Reino Unido.
+
+- Desarrollaron aventuras propias con el sistema de Scott Adams y bajo el sello
+  de éste.
+
+- La más famosa es _Gremlins - The Adventure_, de Brian Howarth, publicada en
+  1984; fue traducida y distribuida en España por Erbe Software.
+
+---
+
+!IMGP(Gremlins.jpg)(Gremlins - The Adventure (1984)<br>(_Fuente_: `pulsaunatecla.es`))(width=70%)
 
 ## España
 
+- En los años 80, la informática de consumo en España es un erial.
+
+- Aparece el ZX Spectrum en 1982-83.
+
+- Commodore 64 y Amstrad CPC aparecen a continuación.
+
+- Hasta mediados de los 80 no hay en España algo parecido a un principio de
+  industria del videojuego.
+
+- No había aventuras desarrolladas aquí.
+
+- Todas en inglés y sin importación legal.
+
 ### Dinamic
+
+- Publican _Yength_ para ZX Spectrum en 1984.
+
+- Considerada la primera aventura conversacional comercial desarrollada y
+  publicada en España.
+
+- Programada en BASIC compilado y ensamblador.
+
+- 74 localidades.
+
+---
+
+!IMGP(Yength.jpg)(Yength (1984)<br>(_Fuente_: `computeremuzone.com`))(width=70%)
+
+---
+
+- Otras aventuras publicadas por Dinamic:
+
+  - _Cobra's Arc_ (Luis Mezquita, Snatcho y Javier Cubedo, 1986).
+
+  - _Arquímedes XXI_ (Jordi Blecua, 1986).
+
+  - _Don Quijote_ (Jordi Blecua, 1987).
+
+  - _Mega-Corp_ (Nicolás Lecuona, 1987).
+
+  - _La guerra de las vajillas_ (Rafael Hernández Stark, 1988).
+
+  - _Carvalho: Los pájaros de Bangkok_ (Fabián Escalante y Javier Aragonés,
+    1988).
 
 ### Aventuras AD
 
+:::: columns
+
+::: column
+
+- Subsidiaria de Dinamic creada en Valencia por Andrés Samudio.
+
+- Única empresa en España dedicada íntegramente a desarrollar aventuras
+  conversacionales.
+
+- Desarrollaron seis aventuras comerciales y una promocional.
+
+- Productos de gran calidad, pero llegaron muy tarde.
+
+:::
+
+::: column
+
+!IMGP(Aventuras_AD.png)(_Fuente_: Wikipedia)(width=60%)
+
+:::
+
+::::
+
+---
+
+- Aventura promocional:
+
+  - _Supervivencia (El Firfurcio)_ (revista Microhobby, 1989).
+
+- Aventuras comerciales:
+
+  - _La aventura original_ (1989).
+
+  - _Jabato_ (1989).
+
+  - _La diosa de Cozumel_ (1990).
+
+  - _La aventura espacial_ (1990).
+
+  - _Los templos sagrados_ (1991).
+
+  - _Chichén Itzá_ (1992).
+
+---
+
+!IMGP(Coleccion_AD.jpg)(Colección de Aventuras AD<br>_Fuente_: `8bits.es`)(width=60%)
+
 # Creación de aventuras
 
-## Parsers
+## _Parsers_
+
+- Un _parser_ es un analizador sintáctico que interpreta la entrada del jugador
+  y reconoce las órdenes a partir de las palabras que las forman y de unas
+  reglas gramaticales definidas por el programador.
+
+- También se llama (incorrectamente) _parser_ a una herramienta de ayuda a la
+  creación de aventuras conversacionales.
+
+- Esas herramientas ayudan a crear aventuras técnicamente muy pulidas sin tener
+  que saber código máquina.
+
+- La mayoría se crearon en Reino Unido en la década de los 80.
+
+### GAC
+
+- _GAC_ (_Graphic Adventure Creator_) de Sean Ellis (Incentive Software, 1986).
+
+- Publicado para Sinclair ZX Spectrum, Amstrad CPC, Commodore 64 y otras.
+
+- Muy fácil de usar, con un lenguaje sencillo.
+
+- Permite crear aventuras con gráficos.
+
+- En España fue muy utilizado.
+
+---
+
+- Algunas aventuras creadas en España con el _GAC_:
+
+  - _Don Quijote_ (1987, CPC, ZX Spectrum y C64)
+
+  - _Mega-Corp_ (1988, CPC, ZX Spectrum y C64)
+
+  - _Carvalho: Los pájaros de Bangkok_ (1988, CPC, ZX Spectrum y C64)
+
+  - _La guerra de las vajillas_ (1988, CPC, ZX Spectrum y C64)
+
+  - _La corona_ (1988, CPC, ZX Spectrum y C64)
+
+  - _Ke rulen los petas_ (1989, CPC, ZX Spectrum y C64)
+
+  - _Zipi y Zape_ (1989, CPC, ZX Spectrum y C64)
+
+  - _Mantis 1_ y _Mantis 2_ (1990, CPC y ZX Spectrum)
+
+---
+
+!IMGP(GAC.jpg)(Graphic Adventure Creator<br>_Fuente_: `worldofspectrum.org`)(width=35%)
+
+### The Quill
+
+- _The Quill_ de Graeme Yeandle (Gilsoft, 1983).
+
+- Publicado para ZX Spectrum, Commodore 64, Amstrad CPC, BBC Micro, Acorn
+  Electron, Atari 8-bit family, Apple II y Oric.
+
+- Muy utilizado en Reino Unido.
+
+- No admite gráficos.
+
+- Luego apareció una extensión llamada _The Illustrator_ que permitía añadir
+  gráficos a las aventuras creadas con _The Quill_.
+
+---
+
+!IMGP(The_Quill.jpg)(The Quill<br>_Fuente_: Wikipedia)(width=35%)
+
+### PAWS
+
+- _PAWS_ (_The Professional Adventure Writing System_) de Tim Gilberts, Graeme
+  Yeandle y Phil Wade (Gilsoft, 1986).
+
+- Publicado para ZX Spectrum, Amstrad CPC y Amstrad PCW (vía CP/M).
+
+- Versión mejorada y extendida de _The Quill_, con un _parser_ más sofisticado,
+  diseñador de sets de caracteres, gráficos integrados, uso de toda la memoria
+  del ZX Spectrum 128K.
+
+- Se estiman en unas 400 las aventuras creadas con _PAWS_.
+
+- En 1989, Aventuras AD publicó una versión traducida y adaptada al español.
+
+---
+
+!IMGP(PAWS.jpg)(The Professional Adventure Writing System<br>_Fuente_: `zonadepruebas.com`)(width=75%)
+
+#### DAAD
+
+- _DAAD_ (_Diseñador de Aventuras de Aventuras AD_) es un creador de aventuras
+  desarrollado por Tim Gilberts a partir de _PAWS_ y _SWAN_ (un creador que
+  sólo fue utilizado por una única compañía de software).
+
+- _DAAD_ fue creado a petición de _Aventuras AD_ para ser usado como su
+  herramienta de creación de aventuras.
+
+- Permite crear la aventura en un PC y luego exportarla a las principales
+  plataformas hardware de 8 y 16 bits que existían a finales de los 80.
+
+- Le costó a Andrés Samudio 2,5 millones de pesetas.
+
+- Recientemente, Andrés Samudio lo ha puesto al dominio público y se puede usar
+  para crear aventuras para plataformas retro.
 
 ## Lenguajes de programación
 
