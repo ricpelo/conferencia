@@ -84,9 +84,9 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
 ---
 
-- Creada por Will Crowther (1975-77).
+- Creada por Will Crowther (BBN, 1975-77).
 
-- Ampliada luego por Don Woods (1977).
+- Ampliada luego por Don Woods (Stanford AI Lab, 1977).
 
 - Desarrollada en Fortran IV para el DEC PDP-10.
 
@@ -94,13 +94,13 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
 ::: column
 
-!IMGP(Will_Crowther.jpg)(Will Crowther (_Fuente_: Wikipedia))(width=50%)
+!IMGP(Will_Crowther.jpg)(Will Crowther<br>(_Fuente_: Wikipedia))(width=50%)
 
 :::
 
 ::: column
 
-!IMGP(Don_woods.png)(Don Woods (_Fuente_: Wikipedia))(width=50%)
+!IMGP(Don_woods.png)(Don Woods<br>(_Fuente_: Wikipedia))(width=50%)
 
 :::
 
