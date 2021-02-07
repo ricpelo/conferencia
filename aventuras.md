@@ -498,19 +498,24 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 - Escribían el código fuente en un DEC Micro VAX con UNIX y con un compilador
   cruzado generaban el código _ELTHAM_.
 
-### Adventure Soft UK
+### Adventure International UK
 
-- Subsidiaria de Adventure International, editora y distribuidora de sus
-  productos en Reino Unido.
+- Distribuían en Europa los productos de Adventure International (AI).
 
-- Desarrollaron aventuras propias con el sistema de Scott Adams y bajo el sello
-  de éste.
+- Además, portaban las aventuras de AI a los nuevos modelos de microordenadores
+  que empezaban a aparecer en Europa (BBC Micro, Sinclair ZX Spectrum, ...)
+  creando intérpretes propios.
+
+- Usando el sistema de AI y sus intérpretes, crearon aventuras propias.
 
 - La más famosa es _Gremlins - The Adventure_, de Brian Howarth (1984).
 
   - Traducida y distribuida en España por Erbe Software.
 
   - Una de las primeras aventuras publicadas en castellano en España.
+
+- Bajo el nombre de Adventuresoft UK, siguieron haciendo aventuras después de
+  la quiebra de AI, y luego se pasaron a las aventuras gráficas.
 
 ---
 
@@ -627,6 +632,19 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 ---
 
 !IMGP(Coleccion_AD.jpg)(Colección de Aventuras AD<br>_Fuente_: `8bits.es`)(width=60%)
+
+### CAAD
+
+- El _CAAD_ (_Club de Aventuras AD_) se fundó en el seno de Aventuras AD.
+
+- Creó una bolsa de aventuras, elaboradas y vendidas por y para sus
+  miembros.
+
+- Organizó un concurso de aventuras para Microhobby.
+
+- Editó (y sigue editando) un fanzine dedicado al mundo de la aventura.
+
+- Desde finales de los 90 se organiza en torno a la web. 
 
 # Intérpretes
 
