@@ -236,22 +236,30 @@ date: Universidad de Cádiz, 9 de febrero de 2021
   - Diseñar una máquina virtual llamada _Z-machine_, capaz de ejecutar código
     máquina llamado _Z-code_.
 
-  - Escribir un compilador de _ZIL_ a _Z-code_.
+  - Escribir un compilador de _ZIL_ a _Z-code_ muy eficiente.
 
   - Escribir y portar a varias plataformas un intérprete de _Z-machine_ llamado
-    _ZIP_ (de _Z-machine Interpreter Program_).
+    _ZIP_ (de _Z-machine Interpreter Program_), que son emuladores de la
+    _Z-machine_.
 
-- Código fuente de _Zork I_ en _ZIL_:
-
-  [`https://github.com/historicalsource/zork1`](https://github.com/historicalsource/zork1)
+  - Hubo un _ZIP_ para TRS-80, Apple II, Atari, Commodore, NEC, IBM, etc.
 
 ---
+
+- El código fuente se programaba en un potente DECsystem-20 bajo el sistema
+  operativo TOPS-20.
+
+- De ahí se compilaba y se generaba el _Z-code_.
 
 - La _Z-machine_ tuvo ocho versiones (Infocom desarrolló las seis primeras).
 
 - El _Z-code_ se guarda en _story files_, que son archivos con extensión `.z1`,
   `.z2`, `.z3`, `.z4`, `.z5`, `.z6`, `.z7` o `.z8`, dependiendo de la versión
   de la _Z-machine_ en la que se deben ejecutar.
+
+- Código fuente de _Zork I_ en _ZIL_:
+
+  [`https://github.com/historicalsource/zork1`](https://github.com/historicalsource/zork1)
 
 ### Adventure International
 
@@ -474,12 +482,21 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
 #### Tecnología
 
-- Magnetic Scrolls usaban su propia máquina virtual, pero basada en el código
-  máquina real del microprocesador Motorola 68000 en lugar de basarse en una
-  máquina inventada.
+- Magnetic Scrolls usaban su propia máquina virtual capaz de ejecutar un código
+  máquina que llamaron _ELTHAM_.
+
+- Esa máquina virtual, en lugar de ser una máquina inventada, se basaba en el
+  código máquina real del microprocesador Motorola 68000.
+
+- Eso permitía ejecución nativa en Sinclair-QL, Atari ST y Amiga.
+
+- El resto de plataformas emulaban la máquina virtual.
 
 - Aprovechaban la potencia gráfica de cada plataforma, especialmente en
   ordenadores de 16 bits (Amiga, Atari ST).
+
+- Escribían el código fuente en un DEC Micro VAX con UNIX y con un compilador
+  cruzado generaban el código _ELTHAM_.
 
 ### Adventure Soft UK
 
@@ -829,6 +846,31 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 - Dispone de un tutorial interactivo muy apropiado para los niños.
 
 # Para saber más
+
+---
+
+- «_La aventura colosal: Historia de las aventuras conversacionales_», Jesús
+  Martínez del Vas (2018). Ed. Dolmen.
+
+- «_AD: Una aventura contada desde dentro_», Juan José Muñoz Falcó (2019). Ed. Héroes de Papel.
+
+---
+
+:::: columns
+
+::: column
+
+!IMGP(Portada_Colosal.jpg)(_Fuente_: `dolmeneditorial.com`)(width=100%)
+
+:::
+
+::: column
+
+!IMGP(Libro_AD.jpg)(_Fuente_: `heroesdepapel.es`)(width=100%)
+
+:::
+
+::::
 
 ---
 

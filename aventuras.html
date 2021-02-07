@@ -271,18 +271,21 @@
 <ul>
 <li><p>Crear un nuevo lenguaje de programación: <em>ZIL</em> (de <em>Zork Implementation Language</em>), similar a MDL.</p></li>
 <li><p>Diseñar una máquina virtual llamada <em>Z-machine</em>, capaz de ejecutar código máquina llamado <em>Z-code</em>.</p></li>
-<li><p>Escribir un compilador de <em>ZIL</em> a <em>Z-code</em>.</p></li>
-<li><p>Escribir y portar a varias plataformas un intérprete de <em>Z-machine</em> llamado <em>ZIP</em> (de <em>Z-machine Interpreter Program</em>).</p></li>
+<li><p>Escribir un compilador de <em>ZIL</em> a <em>Z-code</em> muy eficiente.</p></li>
+<li><p>Escribir y portar a varias plataformas un intérprete de <em>Z-machine</em> llamado <em>ZIP</em> (de <em>Z-machine Interpreter Program</em>), que son emuladores de la <em>Z-machine</em>.</p></li>
+<li><p>Hubo un <em>ZIP</em> para TRS-80, Apple II, Atari, Commodore, NEC, IBM, etc.</p></li>
 </ul></li>
-<li><p>Código fuente de <em>Zork I</em> en <em>ZIL</em>:</p>
-<p><a href="https://github.com/historicalsource/zork1"><code>https://github.com/historicalsource/zork1</code></a></p></li>
 </ul>
 </section>
 <section class="slide level5">
 
 <ul>
+<li><p>El código fuente se programaba en un potente DECsystem-20 bajo el sistema operativo TOPS-20.</p></li>
+<li><p>De ahí se compilaba y se generaba el <em>Z-code</em>.</p></li>
 <li><p>La <em>Z-machine</em> tuvo ocho versiones (Infocom desarrolló las seis primeras).</p></li>
 <li><p>El <em>Z-code</em> se guarda en <em>story files</em>, que son archivos con extensión <code>.z1</code>, <code>.z2</code>, <code>.z3</code>, <code>.z4</code>, <code>.z5</code>, <code>.z6</code>, <code>.z7</code> o <code>.z8</code>, dependiendo de la versión de la <em>Z-machine</em> en la que se deben ejecutar.</p></li>
+<li><p>Código fuente de <em>Zork I</em> en <em>ZIL</em>:</p>
+<p><a href="https://github.com/historicalsource/zork1"><code>https://github.com/historicalsource/zork1</code></a></p></li>
 </ul>
 </section>
 
@@ -496,8 +499,12 @@
 <section id="tecnología-3" class="title-slide slide level4">
 <h4>Tecnología</h4>
 <ul>
-<li><p>Magnetic Scrolls usaban su propia máquina virtual, pero basada en el código máquina real del microprocesador Motorola 68000 en lugar de basarse en una máquina inventada.</p></li>
+<li><p>Magnetic Scrolls usaban su propia máquina virtual capaz de ejecutar un código máquina que llamaron <em>ELTHAM</em>.</p></li>
+<li><p>Esa máquina virtual, en lugar de ser una máquina inventada, se basaba en el código máquina real del microprocesador Motorola 68000.</p></li>
+<li><p>Eso permitía ejecución nativa en Sinclair-QL, Atari ST y Amiga.</p></li>
+<li><p>El resto de plataformas emulaban la máquina virtual.</p></li>
 <li><p>Aprovechaban la potencia gráfica de cada plataforma, especialmente en ordenadores de 16 bits (Amiga, Atari ST).</p></li>
+<li><p>Escribían el código fuente en un DEC Micro VAX con UNIX y con un compilador cruzado generaban el código <em>ELTHAM</em>.</p></li>
 </ul>
 </section>
 
@@ -828,6 +835,31 @@
 <section id="para-saber-más" class="title-slide slide level1">
 <h1>Para saber más</h1>
 
+</section>
+<section class="slide level5">
+
+<ul>
+<li><p>«<em>La aventura colosal: Historia de las aventuras conversacionales</em>», Jesús Martínez del Vas (2018). Ed. Dolmen.</p></li>
+<li><p>«<em>AD: Una aventura contada desde dentro</em>», Juan José Muñoz Falcó (2019). Ed. Héroes de Papel.</p></li>
+</ul>
+</section>
+<section class="slide level5">
+
+<div class="columns">
+<div class="column">
+<div class="centered">
+<figure>
+<img data-src="images/Portada_Colosal.jpg" class="plain" style="width:100.0%" alt="Fuente: dolmeneditorial.com" /><figcaption aria-hidden="true"><em>Fuente</em>: <code>dolmeneditorial.com</code></figcaption>
+</figure>
+</div>
+</div><div class="column">
+<div class="centered">
+<figure>
+<img data-src="images/Libro_AD.jpg" class="plain" style="width:100.0%" alt="Fuente: heroesdepapel.es" /><figcaption aria-hidden="true"><em>Fuente</em>: <code>heroesdepapel.es</code></figcaption>
+</figure>
+</div>
+</div>
+</div>
 </section>
 <section class="slide level5">
 
