@@ -127,11 +127,8 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
 - Desarrollaron una treintena de títulos.
 
-- Su obra más destacada: la serie _Zork_, basado en _Adventure_.
-
-- Facturación de millones de euros anuales.
-
-- Plantilla de más cien personas.
+- Su obra más destacada: la serie _Zork_ (que inicialmente se llamó _Dungeon_),
+  basado en _Adventure_ pero muy mejorado y ampliado.
 
 ---
 
@@ -141,6 +138,10 @@ date: Universidad de Cádiz, 9 de febrero de 2021
   ```
   > GET ALL APPLES EXCEPT THE GREEN APPLE FROM THE BARREL
   ```
+
+- Facturación de millones de euros anuales.
+
+- Plantilla de más cien personas.
 
 - Malas decisiones empresariales (desarrollo de _Cornerstone_) lastraron la
   compañía.
@@ -424,14 +425,34 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
 - Compañía británica fundada por Anita Sinclair en 1984.
 
-- Mundialmente conocidos por la excelente calidad audiovisual de sus productos.
+- Mundialmente conocidos por la excelente calidad audiovisual de sus productos
+  (gráficos, música...).
 
-- Se centraron principalmente en las plataformas de 16 bits
+- Se centraron principalmente en las plataformas de 16 bits.
+
+- Publicaron en Reino Unido pero también en EE.UU.
 
 - Cesaron su actividad en 1992, siendo adquirida por MicroProse.
 
-- Sólo publicaron siete productos propios, seis con Rainbird y uno con Virgin
-  Interactive.
+- Sólo publicaron siete aventuras conversacionales.
+
+---
+
+- Distribuidos por Rainbird Software en RU y por Firebird en EE.UU.:
+
+  - _The Pawn_ (1985).
+  - _The Guild of Thieves_ (1987).
+  - _Jinxter_ (1987).
+  - _Corruption_ (1988).
+  - _Fish!_ (1988).
+
+- Distribuido por Official Secrets:
+
+  - _Myth_ (1989).
+
+- Distribuido por Virgin Mastertronic o Virgin Interactive:
+
+  - _Wonderland_ (1990).
 
 ---
 
@@ -451,6 +472,15 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
 ::::
 
+#### Tecnología
+
+- Magnetic Scrolls usaban su propia máquina virtual, pero basada en el código
+  máquina real del microprocesador Motorola 68000 en lugar de basarse en una
+  máquina inventada.
+
+- Aprovechaban la potencia gráfica de cada plataforma, especialmente en
+  ordenadores de 16 bits (Amiga, Atari ST).
+
 ### Adventure Soft UK
 
 - Subsidiaria de Adventure International, editora y distribuidora de sus
@@ -459,8 +489,11 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 - Desarrollaron aventuras propias con el sistema de Scott Adams y bajo el sello
   de éste.
 
-- La más famosa es _Gremlins - The Adventure_, de Brian Howarth, publicada en
-  1984; fue traducida y distribuida en España por Erbe Software.
+- La más famosa es _Gremlins - The Adventure_, de Brian Howarth (1984).
+
+  - Traducida y distribuida en España por Erbe Software.
+
+  - Una de las primeras aventuras publicadas en castellano en España.
 
 ---
 
@@ -468,9 +501,9 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
 ## España
 
-- En los años 80, la informática de consumo en España es un erial.
+- En los años 80, la informática de consumo en España es un desierto.
 
-- Aparece el ZX Spectrum en 1982-83.
+- Aparece el Sinclair ZX Spectrum en 1982-83.
 
 - Commodore 64 y Amstrad CPC aparecen a continuación.
 
@@ -483,7 +516,7 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
 ### Dinamic
 
-- Publican _Yength_ para ZX Spectrum en 1984.
+- Publican _Yength_ para ZX Spectrum en 1984 (su primer juego).
 
 - Considerada la primera aventura conversacional comercial desarrollada y
   publicada en España.
@@ -512,6 +545,22 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
   - _Carvalho: Los pájaros de Bangkok_ (Fabián Escalante y Javier Aragonés,
     1988).
+
+### Microhobby
+
+- La revista Microhobby (dedicada a ordenadores Sinclair) empieza a hacerse eco
+  de las aventuras.
+
+- Publica artículos semanales de Andrés Samudio en dos secciones:
+
+  - _El mundo de la aventura_ (septiembre de 1987 -- agosto de 1991).
+
+  - _El viejo archivero_ (diciembre de 1987 -- enero de 1992).
+
+- Estas dos secciones ayudaron mucho a la promoción de las aventuras
+  conversacionales en España.
+
+- Sirvió como plataforma de despegue para _Aventuras AD_.
 
 ### Aventuras AD
 
@@ -562,7 +611,36 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
 !IMGP(Coleccion_AD.jpg)(Colección de Aventuras AD<br>_Fuente_: `8bits.es`)(width=60%)
 
-# Creación de aventuras
+# Intérpretes
+
+## Intérpretes
+
+- Hoy día existen intérpretes para poder jugar a todas las aventuras clásicas y
+  modernas en las plataformas y sistemas operativos actuales.
+
+- Esos intérpretes son implementaciones de las máquinas virtuales que cada
+  empresa usaba para desarrollar sus aventuras.
+
+- Uno de los intérpretes más utilizados hoy día es _Gargoyle_.
+
+- _Gargoyle_ funciona como una _shell_ de otros intérpretes, que carga uno u
+  otro dependiendo del tipo de archivo que se desea abrir.
+
+---
+
+- _Gargoyle_ permite ejecutar aventuras de los siguientes sistemas:
+
+  - Agility.
+  - Alan 2 y 3.
+  - Frotz para la _Z-machine_.
+  - Glulxe para la _Glulx_.
+  - Hugo.
+  - Level 9 para la _A-machine_.
+  - Magnetic Scrolls para su máquina virtual.
+  - Scare.
+  - TADS 2 y 3.
+
+# Creación de aventuras (sistemas de autoría)
 
 ## _Parsers_
 
@@ -576,7 +654,8 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 - Esas herramientas ayudan a crear aventuras técnicamente muy pulidas sin tener
   que saber código máquina.
 
-- La mayoría se crearon en Reino Unido en la década de los 80.
+- La mayoría de los _parsers_ comerciales se crearon en Reino Unido en la
+  década de los 80.
 
 ### GAC
 
@@ -717,3 +796,56 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
 - Genera código para una máquina virtual propia para la que se requiere un
   intérprete propio.
+
+## Otros sistemas de autoría
+
+### ngPAWS
+
+- _ngPAWS_ (_next generation Professional Adventure Writing System_) es un
+  sistema para crear aventuras conversacionales que pueden jugarse en cualquier
+  navegador actual (online u offline).
+
+- Basado en el _PAWS_ de Gilsoft.
+
+- Consta de un compilador, un preprocesador y un editor de código.
+
+- El compilador lee código _tipo PAWS_ y genera código JavaScript.
+
+### Adventuron Classroom
+
+- _Adventuron Classroom_ es un creador de aventuras conversacionales que genera
+  aventuras para jugar en la web, y que además también funciona íntegramente en
+  la web.
+
+- Las aventuras generadas se pueden jugar en sistemas de escritorio, en
+  plataformas móviles y en sistemas retro, incluyendo el ZX Spectrum y el ZX
+  Spectrum Next.
+
+- El programador escribe código _tipo JSON_ directamente en un entorno dentro
+  de la página web de _Adventuron_.
+
+- Las aventuras producidas tienen estética retro.
+
+- Dispone de un tutorial interactivo muy apropiado para los niños.
+
+# Para saber más
+
+---
+
+- _CAAD (Club de Aventuras AD)_: [`http://www.caad.es`](http://www.caad.es)
+
+- _WikiCAAD_: [`http://wiki.caad.es`](http://wiki.caad.es)
+
+- _The Interactive Fiction Wiki_: [`http://www.ifwiki.org`](http://www.ifwiki.org)
+
+- _Inform 6_: [`https://www.inform-fiction.org`](https://www.inform-fiction.org)
+
+- _Inform 7_: [`http://www.inform7.com`](http://www.inform7.com)
+
+- _Gargoyle_: [`http://ccxvii.net/gargoyle`](http://ccxvii.net/gargoyle)
+
+- _ngPAWS_: [`http://www.ngpaws.com`](http://www.ngpaws.com)
+
+- _Adventuron Classroom_: [`https://adventuron.io`](https://adventuron.io)
+
+- _DAAD_: [`https://github.com/daad-adventure-writer/daad`](https://github.com/daad-adventure-writer/daad)
