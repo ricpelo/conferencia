@@ -66,21 +66,23 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
 - No confundir con aventuras gráficas.
 
-## La aventura original
+## Adventure
 
 !IMGP(ADVENT.png)(_Fuente_: Wikipedia)(width=55%)
 
-## La aventura original
+## Adventure
 
 - Otros nombres:
 
   - ADVENT
 
-  - Adventure
-
   - Colossal Cave
 
   - Colossal Cave Adventure
+
+  - La aventura colosal
+
+  - La aventura original
 
 ---
 
@@ -261,12 +263,42 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
   [`https://github.com/historicalsource/zork1`](https://github.com/historicalsource/zork1)
 
+### On-Line Systems (Sierra Online)
+
+- _Mystery House_ (Roberta Williams, Ken Williams, 1980, Apple II).
+
+- Primera aventura conversacional con gráficos. 
+
+- Luego crean aventuras híbridas, mitad conversacionales mitad gráficas.
+
+- Al final acaban creando aventuras gráficas.
+
+---
+
+:::: columns
+
+::: column
+
+!IMGP(Mystery_House.png)(_Fuente_: `gamemuseum.es`)(width=75%)
+
+:::
+
+::: column
+
+!IMGP(Mystery_House_pantallazo1.jpg)(_Fuente_: `gamemuseum.es`)
+
+!IMGP(Mystery_House_pantallazo2.png)(_Fuente_: Wikipedia)(width=60%)
+
+:::
+
+::::
+
 ### Adventure International
 
 - Empresa de Scott Adams.
 
 - Primera compañía en crear una aventura conversacional comercial:
-  _Adventurland_ (1978).
+  _Adventurland_ (1978), reeditada con gráficos en 1982.
 
 - Primera compañía en desarrollar y comercializar aventuras para
   microordenadores.
@@ -289,6 +321,28 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 ---
 
 !IMGP(Adventure_International_catalogo.jpg)(_Fuente_: `vintagecomputing.com`)(width=38%)
+
+---
+
+!IMGP(Coleccion_AI.jpg)(_Fuente_: `polygon.com`)(width=50%)
+
+---
+
+:::: columns
+
+::: column
+
+!IMGP(Adventureland_pantallazo1.png)(_Adventureland_<br>_Fuente_: `filfre.net`)
+
+:::
+
+::: column
+
+!IMGP(Adventureland_pantallazo2.png)(_Adventureland_<br>_Fuente_: `mobygames.com`)
+
+:::
+
+::::
 
 #### Tecnología
 
@@ -313,7 +367,7 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
 ---
 
-!IMGP(TheHobbit.jpg)(The Hobbit (1982)<br>(_Fuente_: `worldofspectrum.org`))(width=70%)
+!IMGP(TheHobbit.jpg)(_The Hobbit_ (1982)<br>(_Fuente_: `worldofspectrum.org`))(width=70%)
 
 ---
 
@@ -410,6 +464,24 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
 ::::
 
+---
+
+:::: columns
+
+::: column
+
+!IMGP(Level_9_Colossal_Adventure.gif)(Colossal Adventure (1983)<br>(_Fuente_: `archive.org`))
+
+:::
+
+::: column
+
+!IMGP(Gnome_Ranger.png)(Gnome Ranger (1987)<br>(_Fuente_: `cpc-power.com`))
+
+:::
+
+::::
+
 #### Tecnología
 
 - Aventuras de muchísima calidad técnica.
@@ -475,6 +547,24 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 ::: column
 
 !IMGP(The_Guild_of_Thieves.jpg)(The Guild of Thieves (1987)<br>(_Fuente_: Wikipedia))(width=65%)
+
+:::
+
+::::
+
+---
+
+:::: columns
+
+::: column
+
+!IMGP(Pawn1.png)(The Pawn (1985-87)<br>(_Fuente_: `freegameempire.com`))(width=100%)
+
+:::
+
+::: column
+
+!IMGP(Pawn2.png)(The Pawn (1985-87)<br>(_Fuente_: `adventuregamers.com`))(width=100%)
 
 :::
 
@@ -549,7 +639,11 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
 ---
 
-!IMGP(Yength.jpg)(Yength (1984)<br>(_Fuente_: `computeremuzone.com`))(width=70%)
+!IMGP(Yenght.jpg)(Yength (1984)<br>(_Fuente_: `computeremuzone.com`))(width=70%)
+
+---
+
+!IMGP(Yenght_pantallazo.png)(Yength (1984)<br>(_Fuente_: `elmundodelspectrum.com`))(width=50%)
 
 ---
 
@@ -633,6 +727,10 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
 !IMGP(Coleccion_AD.jpg)(Colección de Aventuras AD<br>_Fuente_: `8bits.es`)(width=60%)
 
+---
+
+!IMGP(Aventura_original.jpg)(Aventuras original<br>_Fuente_: `pinayu.com`)(width=100%)
+
 ### CAAD
 
 - El _CAAD_ (_Club de Aventuras AD_) se fundó en el seno de Aventuras AD.
@@ -645,6 +743,79 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 - Editó (y sigue editando) un fanzine dedicado al mundo de la aventura.
 
 - Desde finales de los 90 se organiza en torno a la web. 
+
+- Desde el _CAAD_ también se pueden consultar otros fanzines de otros grupos
+  como _Z for Zero_ o _SPAC_.
+
+---
+
+:::: columns
+
+::: column
+
+!IMGP(CAAD_logo.png)(_Fuente_: `museo8bits.es`)
+
+:::
+
+::: column
+
+!IMGP(SPAC_logo.gif)(_Fuente_: `caad.es`)
+
+:::
+
+::::
+
+---
+
+:::: columns
+
+::: column
+
+!IMGP(CAAD.png)(_Fuente_: `caad.es`)(width=90%)
+
+:::
+
+::: column
+
+!IMGP(SPAC.jpg)(_Fuente_: `yumpu.com`)(width=70%)
+
+:::
+
+::::
+
+# El final de las aventuras comerciales
+
+---
+
+- Aparición de las aventuras gráficas:
+
+  - _Maniac Mansion_ (Lucasfilm Games, Commodore 64 y Apple II, 1987).
+
+  - _The Secret of Monkey Island_ (Lucasfilm Games, PC, 1990).
+
+- El mercado quería aventuras conversacionales con gráficos, pero se seguían
+  sacando de sólo texto.
+
+- Falta de adaptación a los microordenadores de 16 bits.
+
+- Aparición de las consolas.
+
+- Impass tecnológico hasta la hegemonía del PC.
+
+## En España
+
+- Llegamos muy tarde, cuando el género ya estaba dando sus últimos coletazos en
+  el resto del mundo.
+
+- Años antes de que Aventuras AD empezara, Infocom se había vendido a
+  Activision y Adventure International ya había quebrado.
+
+- Aventuras AD publica todas sus aventuras años después de _Maniac Mansion_
+  (y _Chichén Itzá_ cuando ya ni existía MicroHobby).
+
+- Unido a problemas económicos, provocó el cierre de AD.
+
+- El _CAAD_ y los aficionados toman el testigo a nivel amateur.
 
 # Intérpretes
 
@@ -663,6 +834,10 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
 ---
 
+:::: columns
+
+::: column
+
 - _Gargoyle_ permite ejecutar aventuras de los siguientes sistemas:
 
   - Agility.
@@ -674,6 +849,16 @@ date: Universidad de Cádiz, 9 de febrero de 2021
   - Magnetic Scrolls para su máquina virtual.
   - Scare.
   - TADS 2 y 3.
+
+:::
+
+::: column
+
+!IMGP(Gargoyle.png)(_Fuente_: `ccxvii.net`)
+
+:::
+
+::::
 
 # Creación de aventuras (sistemas de autoría)
 
@@ -815,6 +1000,12 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
 - Su compilador genera código para la _Z-machine_ y para _Glulx_.
 
+- Incorpora su propio IDE.
+
+---
+
+!IMGP(Inform7.png)(IDE de Inform 7<br>(_Fuente_: `https://sites.google.com/site/inform7sp`))
+
 ### TADS
 
 - Lenguaje de programación creado por Michael J. Roberts.
@@ -862,6 +1053,14 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 - Las aventuras producidas tienen estética retro.
 
 - Dispone de un tutorial interactivo muy apropiado para los niños.
+
+---
+
+!IMGP(Adventuron.png)(Adventuron Classroom<br>_Fuente_: `intfiction.org`)(width=75%)
+
+---
+
+!IMGP(Adventuron.gif)(Adventuron Classroom<br>_Fuente_: `itch.io`)(width=65%)
 
 # Para saber más
 
