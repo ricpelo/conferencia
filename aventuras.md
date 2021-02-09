@@ -18,6 +18,10 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 - Profesor de Programación y Desarrollo web en entorno servidor en el Ciclo
   Formativo de Grado Superior en Desarrollo de Aplicaciones Web.
 
+- Twitter: `@ricpelo`
+
+- GitHub: `https://github.com/ricpelo`
+
 ---
 
 - Aficionado a las aventuras conversacionales desde hace más de 30 años:
@@ -1061,6 +1065,24 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 ---
 
 !IMGP(Adventuron.gif)(Adventuron Classroom<br>_Fuente_: `itch.io`)(width=65%)
+
+### Otras herramientas
+
+- _Quest_:
+  [`http://textadventures.co.uk/quest`](http://textadventures.co.uk/quest)
+
+- Para juegos tipo _CYOA_ (_Elige tu propia aventura_):
+
+  - _Twine_: [`https://twinery.org`](https://twinery.org)
+
+  - _Squiffy_:
+    [`http://textadventures.co.uk/squiffy`](http://textadventures.co.uk/squiffy)
+
+  - También sirve _Quest_.
+
+- Para novelas visuales:
+
+  - _Ren'Py_: [`https://www.renpy.org`](https://www.renpy.org)
 
 # Para saber más
 
