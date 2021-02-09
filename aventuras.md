@@ -376,7 +376,7 @@ O -> ZIP3
 
 - Primera compañía en crear una aventura conversacional comercial:
 
-  - _Adventurland_ (1978, TRS-80 Model I), programada en BASIC.
+  - _Adventureland_ (1978, TRS-80 Model I), programada en BASIC.
 
   - Fue posteriormente portada a Apple II, Atari 8-bit, TI-99/4A, PET,
     Commodore 64, IBM PC, VIC-20, ZX Spectrum, BBC Micro, Acorn Electron,
