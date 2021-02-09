@@ -705,7 +705,7 @@ O -> ZIP3
 
 ### Dinamic
 
-- Publican _Yength_ para ZX Spectrum en 1984 (su primer juego).
+- Publican _Yenght_ para ZX Spectrum en 1984 (su primer juego).
 
 - Considerada la primera aventura conversacional comercial desarrollada y
   publicada en España.
@@ -716,11 +716,11 @@ O -> ZIP3
 
 ---
 
-!IMGP(Yenght.jpg)(Yength (1984)<br>(_Fuente_: `computeremuzone.com`))(width=70%)
+!IMGP(Yenght.jpg)(Yenght (1984)<br>(_Fuente_: `computeremuzone.com`))(width=70%)
 
 ---
 
-!IMGP(Yenght_pantallazo.png)(Yength (1984)<br>(_Fuente_: `elmundodelspectrum.com`))(width=50%)
+!IMGP(Yenght_pantallazo.png)(Yenght (1984)<br>(_Fuente_: `elmundodelspectrum.com`))(width=50%)
 
 ---
 
