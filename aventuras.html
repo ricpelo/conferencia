@@ -116,9 +116,9 @@
 <section class="slide level5">
 
 <ul>
-<li><p>Creada por Will Crowther (BBN, 1975-77).</p></li>
+<li><p>Creada por Will Crowther (BBN, 1975-77) en Fortran IV para el DEC PDP-10.</p></li>
+<li><p>Se compartió por ARPANET.</p></li>
 <li><p>Ampliada luego por Don Woods (Stanford AI Lab, 1977).</p></li>
-<li><p>Desarrollada en Fortran IV para el DEC PDP-10.</p></li>
 </ul>
 <div class="columns">
 <div class="column">
@@ -143,6 +143,13 @@
 <img data-src="images/PDP-10.jpg" class="plain" style="width:70.0%" alt="DEC PDP-10 (Fuente: Wikipedia)" /><figcaption aria-hidden="true">DEC PDP-10 (<em>Fuente</em>: Wikipedia)</figcaption>
 </figure>
 </div>
+</section>
+<section class="slide level5">
+
+<ul>
+<li><p>Código fuente de la versión original de Crowther, rescatado de una vieja cuenta de estudiante de Woods en Stanford:</p>
+<p><a href="http://www.russotto.net/~russotto/ADVENT"><code>http://www.russotto.net/~russotto/ADVENT</code></a></p></li>
+</ul>
 </section>
 </section>
 <section>
@@ -173,9 +180,7 @@
 <section class="slide level5">
 
 <ul>
-<li><p>El <em>parser</em> de Infocom era muy avanzado y permitía órdenes complejas, más allá de la forma «verbo - sustantivo». Por ejemplo:</p>
-<pre><code>&gt; GET ALL APPLES EXCEPT THE GREEN APPLE FROM THE BARREL</code></pre></li>
-<li><p>Facturación de millones de euros anuales.</p></li>
+<li><p>Facturación de millones de dólares anuales.</p></li>
 <li><p>Plantilla de más cien personas.</p></li>
 <li><p>Malas decisiones empresariales (desarrollo de <em>Cornerstone</em>) lastraron la compañía.</p></li>
 <li><p>Vendida a Activision en 1986.</p></li>
@@ -258,13 +263,21 @@
 <section class="slide level5">
 
 <ul>
-<li><p><em>Zork</em> se desarrolló en el lenguaje MDL (basado en LISP) para el DEC PDP-10 (1977-1979) cuando sus autores trabajaban en el MIT.</p></li>
-<li><p>Ocupaba casi 1 MiB.</p></li>
-<li><p>Para poder publicarlo en microordenadores, decidieron:</p>
+<li><p>La primera versión de <em>Zork</em> (1977-1979) no fue comercial:</p>
 <ul>
-<li><p>Eliminar secciones completas del juego.</p></li>
-<li><p>Dividir el <em>Zork</em> original en partes que se publicaron de forma independiente (<em>Zork I</em>, <em>Zork II</em> y <em>Zork III</em>).</p></li>
+<li><p>Programada por Tim Anderson, Marc Blank, Bruce Daniels y Dave Lebling (Grupo de Modelado Dinámico del MIT).</p></li>
+<li><p>Reescribieron y ampliaron <em>Adventure</em> usando el lenguaje de programación <em>MDL</em> sobre un DEC PDP-10.</p></li>
 </ul></li>
+<li><p>Ocupaba casi 1 MiB.</p></li>
+<li><p>Bob Supnik de DEC lo portó a Fortran IV para el más pequeño PDP-11 en 1978.</p></li>
+</ul>
+</section>
+<section class="slide level5">
+
+<ul>
+<li><p>En 1979 se funda Incofom como una empresa de desarrollo de software genérica.</p></li>
+<li><p>Joel Berez y Mark Blank convencen a los fundadores de que se podía vender <em>Zork</em> comercialmente para microordenadores.</p></li>
+<li><p>Para ello, en primer lugar, decidieron dividir el <em>Zork</em> original en partes que se publicaron de forma independiente (<em>Zork I</em>, <em>Zork II</em> y <em>Zork III</em>).</p></li>
 </ul>
 </section>
 <section id="tecnología" class="title-slide slide level4">
@@ -272,12 +285,27 @@
 <ul>
 <li><p>Además, para facilitar la portabilidad, decidieron:</p>
 <ul>
-<li><p>Crear un nuevo lenguaje de programación: <em>ZIL</em> (de <em>Zork Implementation Language</em>), similar a MDL.</p></li>
+<li><p>Crear un nuevo lenguaje de programación: <em>ZIL</em> (de <em>Zork Implementation Language</em>), similar a <em>MDL</em>.</p></li>
 <li><p>Diseñar una máquina virtual llamada <em>Z-machine</em>, capaz de ejecutar código máquina llamado <em>Z-code</em>.</p></li>
 <li><p>Escribir un compilador de <em>ZIL</em> a <em>Z-code</em> muy eficiente.</p></li>
 <li><p>Escribir y portar a varias plataformas un intérprete de <em>Z-machine</em> llamado <em>ZIP</em> (de <em>Z-machine Interpreter Program</em>), que son emuladores de la <em>Z-machine</em>.</p></li>
 <li><p>Hubo un <em>ZIP</em> para TRS-80, Apple II, Atari, Commodore, NEC, IBM, etc.</p></li>
 </ul></li>
+</ul>
+</section>
+<section class="slide level5">
+
+<div class="centered">
+<p><img data-src="images/zilzip.svg" class="plain" style="width:90.0%" /></p>
+</div>
+</section>
+<section class="slide level5">
+
+<ul>
+<li><p>1979: <em>ZIP</em> para PDP-10.</p></li>
+<li><p>1980: <em>ZIP</em> para TRS-80.</p></li>
+<li><p>1981: <em>ZIP</em> para PDP-11.</p></li>
+<li><p>1982: <em>ZIP</em> para Commodore 64, Atari, CP/M, IBM PC.</p></li>
 </ul>
 </section>
 <section class="slide level5">
@@ -291,10 +319,41 @@
 <p><a href="https://github.com/historicalsource/zork1"><code>https://github.com/historicalsource/zork1</code></a></p></li>
 </ul>
 </section>
+<section class="slide level5">
+
+<ul>
+<li><p>La <em>Z-machine</em> les permitía tener muchas versiones de una aventura en muy poco tiempo.</p></li>
+<li><p>Además, el <em>parser</em> de Infocom era muy avanzado y permitía órdenes complejas, más allá de la forma «verbo - sustantivo». Por ejemplo:</p>
+<pre><code>&gt; GET ALL APPLES EXCEPT THE GREEN APPLE FROM THE BARREL</code></pre></li>
+</ul>
+</section>
 
 
-<section id="on-line-systems-sierra-online" class="title-slide slide level3">
-<h3>On-Line Systems (Sierra Online)</h3>
+<section id="microsoft" class="title-slide slide level3">
+<h3>Microsoft</h3>
+<div class="columns">
+<div class="column">
+<ul>
+<li><p>Publica <em>Microsoft Adventure</em>:</p>
+<ul>
+<li><p>En 1979 para TRS-80.</p></li>
+<li><p>En 1981 para IBM PC.</p></li>
+</ul></li>
+<li><p>Fue el único juego que acompañó a la salida oficial del IBM PC original.</p></li>
+<li><p>Sólo funcionaba con sistemas de disco.</p></li>
+</ul>
+</div><div class="column">
+<div class="centered">
+<figure>
+<img data-src="images/Microsoft_adventure.jpg" class="plain" style="width:55.0%" alt="Fuente: Wikipedia" /><figcaption aria-hidden="true"><em>Fuente</em>: Wikipedia</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+
+<section id="on-line-systems-sierra-on-line" class="title-slide slide level3">
+<h3>On-Line Systems (Sierra On-Line)</h3>
 <ul>
 <li><p><em>Mystery House</em> (Roberta Williams, Ken Williams, 1980, Apple II).</p></li>
 <li><p>Primera aventura conversacional con gráficos.</p></li>
@@ -330,15 +389,18 @@
 <h3>Adventure International</h3>
 <ul>
 <li><p>Empresa de Scott Adams.</p></li>
-<li><p>Primera compañía en crear una aventura conversacional comercial: <em>Adventurland</em> (1978), reeditada con gráficos en 1982.</p></li>
+<li><p>Primera compañía en crear una aventura conversacional comercial:</p>
+<ul>
+<li><p><em>Adventurland</em> (1978, TRS-80 Model I), programada en BASIC.</p></li>
+<li><p>Fue posteriormente portada a Apple II, Atari 8-bit, TI-99/4A, PET, Commodore 64, IBM PC, VIC-20, ZX Spectrum, BBC Micro, Acorn Electron, Dragon 32/64 y Exidy Sorcerer.</p></li>
+</ul></li>
 <li><p>Primera compañía en desarrollar y comercializar aventuras para microordenadores.</p></li>
-<li><p><em>Adventureland</em> se escribió para el TRS-80 y fue posteriormente portado a Apple II, Atari 8-bit, TI-99/4A, PET, Commodore 64, IBM PC, VIC-20, ZX Spectrum, BBC Micro, Acorn Electron, Dragon 32/64 y Exidy Sorcerer.</p></li>
 </ul>
 </section>
 <section class="slide level5">
 
 <ul>
-<li><p>En 1980 se publicó el código fuente de <em>Adventureland</em> en una revista.</p></li>
+<li><p>En 1980 se publicó el código fuente de <em>Adventureland</em> en una revista (<a href="https://archive.org/stream/softside-magazine-22/SoftSide_22_Vol_2-10_1980-07_Adventureland#page/n35/mode/2up"><em>SoftSide Magazine</em> n.º 22, pp. 36 y siguientes</a>).</p></li>
 <li><p>En 1982 se publicó una versión con gráficos de <em>Adventureland</em>.</p></li>
 <li><p>En 1984 la empresa tenía casi 50 empleados y había publicado títulos de 300 programadores independientes.</p></li>
 <li><p>En 1985 fue a la bancarrota.</p></li>
@@ -399,21 +461,8 @@
 </section>
 <section id="melbourne-house" class="title-slide slide level3">
 <h3>Melbourne House</h3>
-
-</section>
-<section class="slide level5">
-
-<div class="centered">
-<figure>
-<img data-src="images/TheHobbit.jpg" class="plain" style="width:70.0%" alt="The Hobbit (1982) (Fuente: worldofspectrum.org)" /><figcaption aria-hidden="true"><em>The Hobbit</em> (1982)<br>(<em>Fuente</em>: <code>worldofspectrum.org</code>)</figcaption>
-</figure>
-</div>
-</section>
-<section class="slide level5">
-
 <ul>
-<li><p>Desarrolló <em>The Hobbit</em> (1982) para microordenadores.</p></li>
-<li><p>Desarrollado por Philip Mitchell y Veronika Megler.</p></li>
+<li><p><em>The Hobbit</em> (1982, Philip Mitchell y Veronika Megler) para microordenadores.</p></li>
 <li><p><em>Parser</em> muy avanzado:</p>
 <pre><code>&gt; ASK GANDALF ABOUT THE CURIOUS MAP THEN TAKE SWORD AND KILL TROLL WITH IT</code></pre></li>
 <li><p>Gráficos comprimidos que se dibujan en tiempo real.</p></li>
@@ -424,6 +473,14 @@
 </ul></li>
 <li><p>El juego avanza en tiempo real, aunque no se escriba nada.</p></li>
 </ul>
+</section>
+<section class="slide level5">
+
+<div class="centered">
+<figure>
+<img data-src="images/TheHobbit.jpg" class="plain" style="width:70.0%" alt="The Hobbit (1982) (Fuente: worldofspectrum.org)" /><figcaption aria-hidden="true"><em>The Hobbit</em> (1982)<br>(<em>Fuente</em>: <code>worldofspectrum.org</code>)</figcaption>
+</figure>
+</div>
 </section>
 <section class="slide level5">
 
@@ -514,14 +571,14 @@
 <h4>Tecnología</h4>
 <ul>
 <li><p>Aventuras de muchísima calidad técnica.</p></li>
-<li><p>Diseñaron su propio lenguaje llamado <em>A-code</em>.</p></li>
-<li><p>Ese código se ejecutaba en un intérprete para una máquina virtual llamada <em>A-machine</em>.</p></li>
+<li><p>Diseñaron su propio lenguaje llamado <em>A-code</em>, que se ejecutaba en un intérprete para una máquina virtual llamada <em>A-machine</em>.</p></li>
 <li><p>Desarrollaron un sistema de compresión de texto muy avanzado con el que se podía comprimir los textos de las aventuras hasta un 50 %.</p></li>
-<li><p>El <em>A-code</em> y la <em>A-machine</em> rivalizaban con el <em>ZIL</em> y la <em>Z-machine</em> de Infocom, pero estaban más optimizados:</p>
+<li><p>El <em>A-code</em> y la <em>A-machine</em> rivalizaban con el <em>ZIL</em>, el <em>Z-code</em> y la <em>Z-machine</em> de Infocom, pero estaban más optimizados:</p>
 <ul>
 <li><p>Podían distribuirse en <em>cintas</em>.</p></li>
 <li><p>Cargaban totalmente en memoria.</p></li>
 </ul></li>
+<li><p>Empezaron sin gráficos, luego con gráficos vectoriales y finalmente con gráficos <em>bitmap</em>.</p></li>
 </ul>
 </section>
 
@@ -830,48 +887,6 @@
 </section>
 </section>
 <section>
-<section id="intérpretes" class="title-slide slide level1">
-<h1>Intérpretes</h1>
-
-</section>
-<section id="intérpretes-1" class="title-slide slide level2">
-<h2>Intérpretes</h2>
-<ul>
-<li><p>Hoy día existen intérpretes para poder jugar a todas las aventuras clásicas y modernas en las plataformas y sistemas operativos actuales.</p></li>
-<li><p>Esos intérpretes son implementaciones de las máquinas virtuales que cada empresa usaba para desarrollar sus aventuras.</p></li>
-<li><p>Uno de los intérpretes más utilizados hoy día es <em>Gargoyle</em>.</p></li>
-<li><p><em>Gargoyle</em> funciona como una <em>shell</em> de otros intérpretes, que carga uno u otro dependiendo del tipo de archivo que se desea abrir.</p></li>
-</ul>
-</section>
-<section class="slide level5">
-
-<div class="columns">
-<div class="column">
-<ul>
-<li><p><em>Gargoyle</em> permite ejecutar aventuras de los siguientes sistemas:</p>
-<ul>
-<li>Agility.</li>
-<li>Alan 2 y 3.</li>
-<li>Frotz para la <em>Z-machine</em>.</li>
-<li>Glulxe para la <em>Glulx</em>.</li>
-<li>Hugo.</li>
-<li>Level 9 para la <em>A-machine</em>.</li>
-<li>Magnetic Scrolls para su máquina virtual.</li>
-<li>Scare.</li>
-<li>TADS 2 y 3.</li>
-</ul></li>
-</ul>
-</div><div class="column">
-<div class="centered">
-<figure>
-<img data-src="images/Gargoyle.png" class="plain" style="width:80.0%" alt="Fuente: ccxvii.net" /><figcaption aria-hidden="true"><em>Fuente</em>: <code>ccxvii.net</code></figcaption>
-</figure>
-</div>
-</div>
-</div>
-</section>
-</section>
-<section>
 <section id="creación-de-aventuras-sistemas-de-autoría" class="title-slide slide level1">
 <h1>Creación de aventuras (sistemas de autoría)</h1>
 
@@ -1076,6 +1091,48 @@
 </ul>
 </section>
 
+</section>
+<section>
+<section id="intérpretes" class="title-slide slide level1">
+<h1>Intérpretes</h1>
+
+</section>
+<section id="intérpretes-1" class="title-slide slide level2">
+<h2>Intérpretes</h2>
+<ul>
+<li><p>Hoy día existen intérpretes para poder jugar a todas las aventuras clásicas y modernas en las plataformas y sistemas operativos actuales.</p></li>
+<li><p>Esos intérpretes son implementaciones de las máquinas virtuales que cada empresa usaba para desarrollar sus aventuras.</p></li>
+<li><p>Uno de los intérpretes más utilizados hoy día es <em>Gargoyle</em>.</p></li>
+<li><p><em>Gargoyle</em> funciona como una <em>shell</em> de otros intérpretes, que carga uno u otro dependiendo del tipo de archivo que se desea abrir.</p></li>
+</ul>
+</section>
+<section class="slide level5">
+
+<div class="columns">
+<div class="column">
+<ul>
+<li><p><em>Gargoyle</em> permite ejecutar aventuras de los siguientes sistemas:</p>
+<ul>
+<li>Agility.</li>
+<li>Alan 2 y 3.</li>
+<li>Frotz para la <em>Z-machine</em>.</li>
+<li>Glulxe para la <em>Glulx</em>.</li>
+<li>Hugo.</li>
+<li>Level 9 para la <em>A-machine</em>.</li>
+<li>Magnetic Scrolls para su máquina virtual.</li>
+<li>Scare.</li>
+<li>TADS 2 y 3.</li>
+</ul></li>
+</ul>
+</div><div class="column">
+<div class="centered">
+<figure>
+<img data-src="images/Gargoyle.png" class="plain" style="width:80.0%" alt="Fuente: ccxvii.net" /><figcaption aria-hidden="true"><em>Fuente</em>: <code>ccxvii.net</code></figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
 </section>
 <section>
 <section id="para-saber-más" class="title-slide slide level1">

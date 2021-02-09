@@ -90,11 +90,11 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
 ---
 
-- Creada por Will Crowther (BBN, 1975-77).
+- Creada por Will Crowther (BBN, 1975-77) en Fortran IV para el DEC PDP-10.
+
+- Se compartió por ARPANET.
 
 - Ampliada luego por Don Woods (Stanford AI Lab, 1977).
-
-- Desarrollada en Fortran IV para el DEC PDP-10.
 
 :::: columns
 
@@ -115,6 +115,13 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 ---
 
 !IMGP(PDP-10.jpg)(DEC PDP-10 (_Fuente_: Wikipedia))(width=70%)
+
+---
+
+- Código fuente de la versión original de Crowther, rescatado de una vieja
+  cuenta de estudiante de Woods en Stanford:
+
+  [`http://www.russotto.net/~russotto/ADVENT`](http://www.russotto.net/~russotto/ADVENT)
 
 # Por países
 
@@ -138,14 +145,7 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
 ---
 
-- El _parser_ de Infocom era muy avanzado y permitía órdenes complejas, más
-  allá de la forma «verbo - sustantivo». Por ejemplo:
-
-  ```
-  > GET ALL APPLES EXCEPT THE GREEN APPLE FROM THE BARREL
-  ```
-
-- Facturación de millones de euros anuales.
+- Facturación de millones de dólares anuales.
 
 - Plantilla de más cien personas.
 
@@ -220,24 +220,34 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
 ---
 
-- _Zork_ se desarrolló en el lenguaje MDL (basado en LISP) para el DEC PDP-10
-  (1977-1979) cuando sus autores trabajaban en el MIT. 
+- La primera versión de _Zork_ (1977-1979) no fue comercial:
+
+  - Programada por Tim Anderson, Marc Blank, Bruce Daniels y Dave Lebling
+    (Grupo de Modelado Dinámico del MIT).
+
+  - Reescribieron y ampliaron _Adventure_ usando el lenguaje de programación
+    _MDL_ sobre un DEC PDP-10.
 
 - Ocupaba casi 1 MiB.
 
-- Para poder publicarlo en microordenadores, decidieron:
+- Bob Supnik de DEC lo portó a Fortran IV para el más pequeño PDP-11 en 1978.
 
-  - Eliminar secciones completas del juego.
-  
-  - Dividir el _Zork_ original en partes que se publicaron de forma
-    independiente (_Zork I_, _Zork II_ y _Zork III_).
+---
+
+- En 1979 se funda Incofom como una empresa de desarrollo de software genérica.
+
+- Joel Berez y Mark Blank convencen a los fundadores de que se podía vender
+  _Zork_ comercialmente para microordenadores.
+
+- Para ello, en primer lugar, decidieron dividir el _Zork_ original en partes
+  que se publicaron de forma independiente (_Zork I_, _Zork II_ y _Zork III_).
 
 #### Tecnología
 
 - Además, para facilitar la portabilidad, decidieron:
 
   - Crear un nuevo lenguaje de programación: _ZIL_ (de _Zork Implementation
-    Language_), similar a MDL.
+    Language_), similar a _MDL_.
 
   - Diseñar una máquina virtual llamada _Z-machine_, capaz de ejecutar código
     máquina llamado _Z-code_.
@@ -249,6 +259,31 @@ date: Universidad de Cádiz, 9 de febrero de 2021
     _Z-machine_.
 
   - Hubo un _ZIP_ para TRS-80, Apple II, Atari, Commodore, NEC, IBM, etc.
+
+---
+
+!DOT(zilzip.svg)()(width=90%)(width=100%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+F [label = <Código fuente<br/>(<i>ZIL</i>)<br/><br/><font face="monospace" point-size="11">archivo.zil</font>>, shape = note, fillcolor = aliceblue];
+O [label = <Código objeto<br/>(<i>Z-code</i>)<br/><br/><font face="monospace" point-size="11">archivo.z5</font>>, shape = note, fillcolor = aliceblue];
+Zilch [label = <Compilador<br/><br/><i>Zilch</i>>]
+ZIP1 [label = <<i>Intérprete<br/><br/>ZIP<br/><br/>para TRS-80</i>>]
+ZIP2 [label = <<i>Intérprete<br/><br/>ZIP<br/><br/>para IBM</i>>]
+ZIP3 [label = <<i>Intérprete<br/><br/>ZIP<br/><br/>para Apple II</i>>]
+F -> Zilch -> O -> ZIP1
+O -> ZIP2
+O -> ZIP3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+---
+
+- 1979: _ZIP_ para PDP-10.
+
+- 1980: _ZIP_ para TRS-80.
+
+- 1981: _ZIP_ para PDP-11.
+
+- 1982: _ZIP_ para Commodore 64, Atari, CP/M, IBM PC.
 
 ---
 
@@ -267,7 +302,45 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
   [`https://github.com/historicalsource/zork1`](https://github.com/historicalsource/zork1)
 
-### On-Line Systems (Sierra Online)
+---
+
+- La _Z-machine_ les permitía tener muchas versiones de una aventura en muy
+  poco tiempo.
+
+- Además, el _parser_ de Infocom era muy avanzado y permitía órdenes complejas,
+  más allá de la forma «verbo - sustantivo». Por ejemplo:
+
+  ```
+  > GET ALL APPLES EXCEPT THE GREEN APPLE FROM THE BARREL
+  ```
+
+### Microsoft
+
+:::: columns
+
+::: column
+
+- Publica _Microsoft Adventure_:
+
+  - En 1979 para TRS-80.
+
+  - En 1981 para IBM PC.
+
+- Fue el único juego que acompañó a la salida oficial del IBM PC original.
+
+- Sólo funcionaba con sistemas de disco.
+
+:::
+
+::: column
+
+!IMGP(Microsoft_adventure.jpg)(_Fuente_: Wikipedia)(width=55%)
+
+:::
+
+::::
+
+### On-Line Systems (Sierra On-Line)
 
 - _Mystery House_ (Roberta Williams, Ken Williams, 1980, Apple II).
 
@@ -302,18 +375,21 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 - Empresa de Scott Adams.
 
 - Primera compañía en crear una aventura conversacional comercial:
-  _Adventurland_ (1978), reeditada con gráficos en 1982.
+
+  - _Adventurland_ (1978, TRS-80 Model I), programada en BASIC.
+
+  - Fue posteriormente portada a Apple II, Atari 8-bit, TI-99/4A, PET,
+    Commodore 64, IBM PC, VIC-20, ZX Spectrum, BBC Micro, Acorn Electron,
+    Dragon 32/64 y Exidy Sorcerer.
 
 - Primera compañía en desarrollar y comercializar aventuras para
   microordenadores.
 
-- _Adventureland_ se escribió para el TRS-80 y fue posteriormente portado a
-  Apple II, Atari 8-bit, TI-99/4A, PET, Commodore 64, IBM PC, VIC-20, ZX
-  Spectrum, BBC Micro, Acorn Electron, Dragon 32/64 y Exidy Sorcerer.
-
 ---
 
-- En 1980 se publicó el código fuente de _Adventureland_ en una revista.
+- En 1980 se publicó el código fuente de _Adventureland_ en una revista
+  ([_SoftSide Magazine_ n.º 22, pp. 36 y
+  siguientes](https://archive.org/stream/softside-magazine-22/SoftSide_22_Vol_2-10_1980-07_Adventureland#page/n35/mode/2up)).
 
 - En 1982 se publicó una versión con gráficos de _Adventureland_.
 
@@ -369,15 +445,7 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
 ### Melbourne House
 
----
-
-!IMGP(TheHobbit.jpg)(_The Hobbit_ (1982)<br>(_Fuente_: `worldofspectrum.org`))(width=70%)
-
----
-
-- Desarrolló _The Hobbit_ (1982) para microordenadores.
-
-- Desarrollado por Philip Mitchell y Veronika Megler.
+- _The Hobbit_ (1982, Philip Mitchell y Veronika Megler) para microordenadores.
 
 - _Parser_ muy avanzado:
 
@@ -395,6 +463,10 @@ date: Universidad de Cádiz, 9 de febrero de 2021
     romperse o dañarse.
 
 - El juego avanza en tiempo real, aunque no se escriba nada.
+
+---
+
+!IMGP(TheHobbit.jpg)(_The Hobbit_ (1982)<br>(_Fuente_: `worldofspectrum.org`))(width=70%)
 
 ---
 
@@ -490,20 +562,21 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
 - Aventuras de muchísima calidad técnica.
 
-- Diseñaron su propio lenguaje llamado _A-code_.
-
-- Ese código se ejecutaba en un intérprete para una máquina virtual llamada
-  _A-machine_.
+- Diseñaron su propio lenguaje llamado _A-code_, que se ejecutaba en un
+  intérprete para una máquina virtual llamada _A-machine_.
 
 - Desarrollaron un sistema de compresión de texto muy avanzado con el que se
   podía comprimir los textos de las aventuras hasta un 50 %.
 
-- El _A-code_ y la _A-machine_ rivalizaban con el _ZIL_ y la _Z-machine_ de
-  Infocom, pero estaban más optimizados:
+- El _A-code_ y la _A-machine_ rivalizaban con el _ZIL_, el _Z-code_ y la
+  _Z-machine_ de Infocom, pero estaban más optimizados:
 
   - Podían distribuirse en _cintas_.
 
   - Cargaban totalmente en memoria.
+
+- Empezaron sin gráficos, luego con gráficos vectoriales y finalmente con
+  gráficos _bitmap_.
 
 ### Magnetic Scrolls
 
@@ -821,49 +894,6 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 
 - El _CAAD_ y los aficionados toman el testigo a nivel amateur.
 
-# Intérpretes
-
-## Intérpretes
-
-- Hoy día existen intérpretes para poder jugar a todas las aventuras clásicas y
-  modernas en las plataformas y sistemas operativos actuales.
-
-- Esos intérpretes son implementaciones de las máquinas virtuales que cada
-  empresa usaba para desarrollar sus aventuras.
-
-- Uno de los intérpretes más utilizados hoy día es _Gargoyle_.
-
-- _Gargoyle_ funciona como una _shell_ de otros intérpretes, que carga uno u
-  otro dependiendo del tipo de archivo que se desea abrir.
-
----
-
-:::: columns
-
-::: column
-
-- _Gargoyle_ permite ejecutar aventuras de los siguientes sistemas:
-
-  - Agility.
-  - Alan 2 y 3.
-  - Frotz para la _Z-machine_.
-  - Glulxe para la _Glulx_.
-  - Hugo.
-  - Level 9 para la _A-machine_.
-  - Magnetic Scrolls para su máquina virtual.
-  - Scare.
-  - TADS 2 y 3.
-
-:::
-
-::: column
-
-!IMGP(Gargoyle.png)(_Fuente_: `ccxvii.net`)
-
-:::
-
-::::
-
 # Creación de aventuras (sistemas de autoría)
 
 ## _Parsers_
@@ -1083,6 +1113,49 @@ date: Universidad de Cádiz, 9 de febrero de 2021
 - Para novelas visuales:
 
   - _Ren'Py_: [`https://www.renpy.org`](https://www.renpy.org)
+
+# Intérpretes
+
+## Intérpretes
+
+- Hoy día existen intérpretes para poder jugar a todas las aventuras clásicas y
+  modernas en las plataformas y sistemas operativos actuales.
+
+- Esos intérpretes son implementaciones de las máquinas virtuales que cada
+  empresa usaba para desarrollar sus aventuras.
+
+- Uno de los intérpretes más utilizados hoy día es _Gargoyle_.
+
+- _Gargoyle_ funciona como una _shell_ de otros intérpretes, que carga uno u
+  otro dependiendo del tipo de archivo que se desea abrir.
+
+---
+
+:::: columns
+
+::: column
+
+- _Gargoyle_ permite ejecutar aventuras de los siguientes sistemas:
+
+  - Agility.
+  - Alan 2 y 3.
+  - Frotz para la _Z-machine_.
+  - Glulxe para la _Glulx_.
+  - Hugo.
+  - Level 9 para la _A-machine_.
+  - Magnetic Scrolls para su máquina virtual.
+  - Scare.
+  - TADS 2 y 3.
+
+:::
+
+::: column
+
+!IMGP(Gargoyle.png)(_Fuente_: `ccxvii.net`)
+
+:::
+
+::::
 
 # Para saber más
 
